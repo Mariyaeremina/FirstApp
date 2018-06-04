@@ -6,8 +6,4 @@ target 'FirstApp' do
     
 		# Pods for RealmDo 
 		pod 'RealmSwift' 
-		pod 'DownPicker'
-        pod 'Alamofire', '~> 4.7'
-        pod 'DLRadioButton', '~> 1.4'
-		pod 'AlamofireImage', '~> 3.3'
 end

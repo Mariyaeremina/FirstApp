@@ -1,5 +1,5 @@
 //
-//  MealTableViewCell.swift
+//  RecipeTableViewCell.swift
 //  FirstApp
 //
 //  Created by Мария on 29.05.18.
@@ -8,11 +8,10 @@
 
 import UIKit
 
-class MealTableViewCell: UITableViewCell {
+class RecipeTableViewCell: UITableViewCell {
 
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var caloriesLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
